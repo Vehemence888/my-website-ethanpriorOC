@@ -1,8 +1,10 @@
 /* UNIVERSAL SELECTOR=* */
 
 body {
-    color: rgb(0, 0, 255);
-    background-color: rgb(245, 245, 245);
+    color: rgb(50, 60, 206);
+    background:  rgb(243, 240, 240);
+    
+
 }
 
 /*Type Selector*/
@@ -14,6 +16,10 @@ p {
     font-size: 100%;
 }
 
+
+
+
+
 h1 {
     color: rgb(94, 85, 5);
 }
@@ -23,15 +29,32 @@ h1 {
     color: rgb(252, 22, 22);
 }
 
+#first_list_partone {
+    margin: 1%;
+}
+
+#first_list_partwo {
+    margin: 1%;
+}
+#second_list {
+    background: linear-gradient(10deg, rgb(171, 171, 179) 10%, rgb(238, 231, 231) 10%);
+    padding: 1%;
+    margin: 2%;
+}
+
+
 /* CLASS SELECTOR */
 .toppage {
     color: rgb(128, 128, 128);
 }
 
+.list {
+    border:3px solid rgb(3, 3, 3) ;
+}
 
 /*RELATIONAL SELCTOR*/
-section#first_list>ul {
-    color: rgb(192, 124, 35);
+section#second_list>ul {
+    color: rgb(24, 15, 4);
 }
 
 /*DESCENDANT SELECTOR*/
